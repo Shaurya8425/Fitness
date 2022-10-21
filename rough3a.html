@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rough3.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
+        #box{
+            width: 74%;
+            margin: 1rem auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0rem;
+        }
+        header{
+            background-color: aliceblue;
+            padding: .5rem 0;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        #title{
+            color: #143774;
+            font-family: 'Lora';
+            font-size: 3.375rem;
+            font-weight: 400;
+            text-align: center;
+            margin: 0rem;
+        }
+        #sub-title{
+            color: #1792D2;
+            font-family: 'Ubuntu';
+            font-size: .75rem;
+            text-align: center;
+            font-weight: 700;
+            margin: 0rem;
+        }
+        nav{
+            font-family: 'Ubuntu';
+            font-size: 1rem;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            padding: 0rem;
+            margin: 0rem;
+        }
+        nav ul li{
+            margin: 0rem 1em;
+            color: #707070;
+            font-weight: 700;
+        }
+        nav ul li:last-child{
+            margin-right: 0rem;
+        }
+        nav ul li:first-child{
+            margin-left: 0rem;
+        }
+
+        .current-page{
+            border-bottom: 2px solid #707070;
+        }
+        .current-page:hover{
+            color: #707070;
+        }
+        nav ul li a{
+            text-decoration: none;
+            padding: .25em 0;
+        }
+        nav ul li a:hover, a:focus{
+            color: #1792d2;
+        }
+        @media (max-width:912px){
+        #box{
+            flex-direction: column;
+        }
+        }
+        nav ul li{
+            margin: .5rem;
+        }
+        @media (max-width:600px){
+            nav ul{
+            flex-direction: column;
+            align-items: center;
+            }
+            nav ul li{
+                margin-left: 0;
+            }
+        }
+        @media (max-width:210px){
+            #container h1{
+                font-size: 20vw;
+            }
+            #container p{
+                font-size: 10vw;
+            }
+            nav ul li{
+                margin: .16rem;
+            }
+            nav ul li:first-child{
+            margin-left: .16rem;
+            }
+            nav ul li:last-child{
+            margin-right: .16rem;
+            }
+            nav a{
+                font-size: 7.56vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="box">
+            <div id="container">
+                <h1 id="title">Living the simple life</h1>
+                <p id="sub-title">A BLOG EXPLORING MINIMALISM IN LIFE</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="current-page" href="">Home</a></li>
+                    <li><a href="rough3c.html">About Me</a></li>
+                    <li><a href="rough3b.html">Recent Posts</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+    <div class="container">
+        <main role="main">
+            <article class="article-featured">
+                <h2 class="article-title">Finding simplicity in life</h2>
+            <img class="article-img" src="1.jpg" alt="">
+            <p class="article-info">July 23, 2019  |  3 comments</p>
+            <p class="article-body">Life can get complicated really quickly, but it doesn't have to be! There are many ways to simplify your life, <a href="">a few of which we've explored in the past.</a> This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living. </p>
+            <a class="article-read-more" href="">continue reading</a>
+        </article>
+        <article class="article-recent">
+            <div class="article-recent-main">
+                <h2 class="article-title">Keeping cooking simple</h2>
+                <p class="article-body">Food is a very important part of everyone's life. If you want to be healthy, you have to eat healthy. One of the easiest ways to do that is to keep your cooking nice and simple. </p>
+                <a class="article-read-more" href="">continue reading</a>
+            </div>
+            <div class="article-recent-secondary">
+                <img class="article-img" src="2.jpg" alt="">
+                <p class="article-info">July 19, 2019  |  3 comments</p>
+            </div>
+        </article>
+        <article class="article-recent">
+            <div class="article-recent-main">
+                <h2 class="article-title">Simplicity and work</h2>
+                <p class="article-body">Work is often a major source of stress. People get frustrated, it ruins their relationship with others and it leads to burnout. By keeping your work life as simple as possible, it will help balance everything out.</p>
+                <a class="article-read-more" href="">continue reading</a>
+            </div>
+            <div class="article-recent-secondary">
+                <img class="article-img" src="3.png" alt="">
+                <p class="article-info">July 12, 2019  |  3 comments</p>
+            </div>
+        </article>
+        <article class="article-recent">
+            <div class="article-recent-main">
+                <h2 class="article-title">Simple decorations</h2>
+                <p class="article-body">A home isn't a home until you've decorated a little. People either don't decorate, or they go overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the eye where you want it to and make things pop like never before.</p>
+                <a class="article-read-more" href="">continue reading</a>
+            </div>
+            <div class="article-recent-secondary">
+                <img class="article-img" src="4.jpg" alt="">
+                <p class="article-info">July 3, 2019  |  3 comments</p>
+            </div>
+        </article>
+    </main>
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h2 class="widget-title">About me</h2>
+                <img class="widget-img" src="7.png" alt="">
+                <p class="widget-body">I find life better, and I'm happier, when things are nice and simple.</p>
+            </div>
+            <div class="sidebar-widget">
+                <h2 class="widget-title">Recent posts</h2>
+                <div class="widget-recent-post">
+                    <h3 class="widget-recent-post-title">Keeping cooking simple</h3>
+                    <img src="2.jpg" alt="" class="widget-recent-img">
+                </div>
+                <div class="widget-recent-post">
+                    <h3 class="widget-recent-post-title">Simplicity and work</h3>
+                    <img src="3.png" alt="" class="widget-recent-img">
+                </div>
+                <div class="widget-recent-post">
+                    <h3 class="widget-recent-post-title">Simple decorations</h3>
+                    <img src="4.jpg" alt="" class="widget-recent-img">
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p>Living the Simple Life</p>
+        <p>Copyright 2019</p>
+    </footer>
+</body>
+</html>
