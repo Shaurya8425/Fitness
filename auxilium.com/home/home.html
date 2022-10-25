@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        #nav1{
+            background-color: white;
+        }
+        #nav1 ul{
+            overflow: auto;
+        }
+        #nav1 li{
+            float: left;
+            list-style: none;
+            padding: 0px 2px;
+            margin: 0px 8px;
+        }
+        #nav1 li a{
+            text-decoration: none;
+        }
+        #nav1 li h2:hover{
+            color: white;
+            background-color: blue;
+            border: 4px solid white;
+            border-radius: 12px;
+            padding: 0px 4px;
+
+        }
+        #img1{
+            border: 4px solid orange;
+            border-radius: 10px;
+        }
+        #div1{
+            float: right;
+            padding: 0px 12px 0px 0px;
+        }
+        #nav2{
+            background-color: rgba(0, 0, 255, 0.205);
+            border: 4px solid white;
+            border-radius: 8px;
+        }
+        #nav2 ul{
+            overflow: auto;
+        }
+        #nav2 li{
+            float: left;
+            list-style: none;
+            padding: 0px 2px;
+            margin: 0px 8px;
+        }
+        #nav2 a{
+            text-decoration: none;
+        }
+        #nav2 li h2:hover{
+            color: white;
+            background-color: blue;
+            border: 4px solid rgba(0, 0, 255, 0.205);
+            padding: 0px 4px;
+            border-radius: 8px;
+        }
+        #div2{
+            float: right;
+            padding: 0px 12px 0px 0px;
+        }
+        #div3{
+            background-color: rgba(0, 0, 0, 0.651);
+            height: 10cm;
+        }
+        #div4{
+            background-color: #D9EEE1;
+            height: 14cm;
+            box-sizing: border-box;
+        }
+        #div4a{
+            padding: 96px 0px 0px 132px;
+        }
+        #div4a h3{
+            border: 2px solid orange;
+            background-color: rgba(255, 0, 0, 0.384);
+            border-radius: 10px;
+            /* box-sizing: border-box; */
+            width: 4cm;
+            display: block;
+        }
+        #search1{
+            border: 4px solid;
+            margin: 24px 0px 0px 0px;
+            padding: 4px 0px 4px 16px;
+            border-radius: 8px;
+        }
+        #search2{
+            border: 0px solid;
+            margin: 16px 0px 0px 0px;
+            padding: 20px 212px 16px 28px;
+            border-radius: 36px;
+        }
+        input::placeholder{
+            font-weight: bold;
+            opacity: .8;
+            color: grey;
+            font-size: 16px;
+        }
+        #center1{
+            color: white;
+            font-size: 86px;
+        }
+        #center2 a{
+            color: white;
+            font-size: 32px;
+        }
+        #center2 a:hover{
+            color: yellow;
+        }
+        #p1{
+            font-family: system-ui;
+            font-weight: bold;
+        }
+        #a1{
+            color: white;
+            background-color: #04AA6D;
+            border: 0px solid;
+            border-radius: 10px;
+            text-decoration: none;
+            font-family: Verdana;
+            font-weight: bold;
+            padding: 8px 40px 14px 16px ;
+        }
+        #a1:hover{
+            color: #04AA6D;
+            background-color: white;
+        }
+        #a2{
+            color: white;
+            background-color: #fd0000;
+            border: 0px solid;
+            border-radius: 10px;
+            text-decoration: none;
+            font-family: Verdana;
+            font-weight: bold;
+            padding: 8px 20px 14px 16px ;
+        }
+        #a2:hover{
+            color: #fd0000;
+            background-color: white;
+        }
+        #a3{
+            color: white;
+            background-color: #282A35;
+            border: 0px solid;
+            border-radius: 10px;
+            text-decoration: none;
+            font-family: Verdana;
+            font-weight: bold;
+            padding: 8px 12px 14px 16px ;
+        }
+        #a3:hover{
+            color: #282A35;
+            background-color: white;
+        }
+        #a4{
+            color: white;
+            background-color: #0004ff;
+            border: 0px solid;
+            border-radius: 10px;
+            text-decoration: none;
+            font-family: Verdana;
+            font-weight: bold;
+            padding: 8px 32px 14px 16px;
+        }
+        #a4:hover{
+            color: #0004ff;
+            background-color: white;
+        }
+        #p4{
+            box-sizing: border-box;
+            margin: 8px 48px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav1" class="">
+            <ul>
+                <li><img id="img1" src="web_development.png" alt="Web Dev"></li>
+                <li><a href=""><h2>Tutorials</h2></a></li>
+                <li><a href=""><h2>Refrences</h2></a></li>
+                <li><a href=""><h2>Exercises</h2></a></li>
+                <li><a href=""><h2>Videos</h2></a></li>
+                <div id="div1">
+                    <ul>
+                        <li><a href=""><h2>Sign Up</h2></a></li>
+                        <li><a href=""><h2>Login</h2></a></li>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+        <nav id="nav2" class="">
+            <ul>
+                <li><a href=""><h2>HTML</h2></a></li>
+                <li><a href=""><h2>CSS</h2></a></li>
+                <li><a href=""><h2>JavaScript</h2></a></li>
+                <div id="div2">
+                    <input type="text" name="search" id="search1" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div id="div3">
+        <h1><center id="center1">Learn to Code</center></h1>
+        <center><input type="text" name="search" id="search2" placeholder="Search our tutorials"></center>
+        <h1><center id="center2"><a href="">Not sure where to begin?</a></center></h1>
+    </div>
+    <div id="div4">
+        <div id="div4a">
+            <h1>HTML</h1>
+            <p id="p1">The language for building web pages</p> <br>
+            <a href="learn_html" id="a1">Learn HTML</a> <br>
+            <a href="Video Tutorial" id="a2" style="position: relative; top:36px;">Video Tutorial</a> <br>
+            <a href="html_reference" id="a3" style="position: relative; top:72px;">HTML Refrence</a> <br>
+            <a href="get_certified" id="a4" style="position: relative; top:108px;">Get Certified</a> <br>
+    </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div id="div5">
+        <div id="div5a">
+            <h1>CSS</h1>
+            <p id="p2">The language for styling web pages</p> <br>
+            <a href="learn_html" id="a5">Learn CSS</a> <br>
+            <a href="Video Tutorial" id="a6" style="position: relative; top:36px;">Video Tutorial</a> <br>
+            <a href="html_reference" id="a7" style="position: relative; top:72px;">CSS Refrence</a> <br>
+            <a href="get_certified" id="a8" style="position: relative; top:108px;">Get Certified</a> <br>
+    </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div id="div6">
+        <div id="div6a">
+            <h1>JavaScript</h1>
+            <p id="p3">A language for accessing databases</p> <br>
+            <a href="learn_html" id="a9">Learn JavaScript</a> <br>
+            <a href="Video Tutorial" id="a10" style="position: relative; top:36px;">Video Tutorial</a> <br>
+            <a href="html_reference" id="a11" style="position: relative; top:72px;">JavaScript Refrence</a> <br>
+            <a href="get_certified" id="a12" style="position: relative; top:108px;">Get Certified</a> <br>
+    </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <footer id="footer">
+        <div id="div7">
+            <div id="div7a">
+                <center>
+                    <ul>
+                        <li><a href="" id="a13">QUIZZES</a></li>
+                        <li><a href="" id="a14">EXERCISES</a></li>
+                        <li><a href="" id="a15">SUPPORT</a></li>
+                    </ul>
+                </center>
+            </div>
+            <p id="p4">
+                auxilium is optimized for learning, testing and training. Examples might be simplified to improve reading and basic understanging. Tutorials, Refrences and Examples are constantly reviewed to avoid errors but we cannot warrent full correctness of all content. While using this site, you agree to have read and accepted our <a href="" id="a16"><strong>terms of use, cookie</strong></a> and <a href="" id="a17"><strong>privacy policy</strong></a>. <br>
+                <center><a href="" id="a18">Copyright 1999-2022 by Auxilium Data. </a> All Rights Reserved.</center>
+            </p>
+        </div>
+        <div id="div8">
+            <div id="div8a">
+                <center>
+                    <ul>
+                        <li><a href="" id="a19">facbook</a></li>
+                        <li><a href="" id="a20">instagram</a></li>
+                        <li><a href="" id="a21">linkedin</a></li>
+                    </ul>
+                </center>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

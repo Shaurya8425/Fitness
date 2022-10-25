@@ -1,0 +1,233 @@
+/* Div5 */
+#div5{
+    background-color: #FFF4A3;
+    height: 14cm;
+}
+#div5a{
+    padding: 96px 0px 0px 132px;
+}
+#div5a h3{
+    border: 2px solid orange;
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    width: 4cm;
+}
+#p2{
+    font-family: system-ui;
+    font-weight: bold;
+}
+#a5{
+    color: white;
+    background-color: #04AA6D;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 56px 14px 16px ;
+}
+#a5:hover{
+    color: #04AA6D;
+    background-color: white;
+}
+#a6{
+    color: white;
+    background-color: #fd0000;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 20px 14px 16px ;
+}
+#a6:hover{
+    color: #fd0000;
+    background-color: white;
+}
+#a7{
+    color: white;
+    background-color: #282A35;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 26px 14px 16px ;
+}
+#a7:hover{
+    color: #282A35;
+    background-color: white;
+}
+#a8{
+    color: white;
+    background-color: #0004ff;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 32px 14px 16px;
+}
+#a8:hover{
+    color: #0004ff;
+    background-color: white;
+}
+/* Div6 */
+#div6{
+    background-color:  #96D4D4;
+    height: 14cm;
+}
+#div6a{
+    padding: 96px 0px 0px 132px;
+}
+#div6a h3{
+    border: 2px solid orange;
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    width: 4cm;
+}
+#p3{
+    font-family: system-ui;
+    font-weight: bold;
+}
+#a9{
+    color: white;
+    background-color: #04AA6D;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 56px 14px 16px ;
+}
+#a9:hover{
+    color: #04AA6D;
+    background-color: white;
+}
+#a10{
+    color: white;
+    background-color: #fd0000;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 78px 14px 16px ;
+}
+#a10:hover{
+    color: #fd0000;
+    background-color: white;
+}
+#a11{
+    color: white;
+    background-color: #282A35;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 26px 14px 16px ;
+}
+#a11:hover{
+    color: #282A35;
+    background-color: white;
+}
+#a12{
+    color: white;
+    background-color: #0004ff;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 8px 90px 14px 16px;
+}
+#a12:hover{
+    color: #0004ff;
+    background-color: white;
+}
+/* Footer */
+#footer{
+    color: white;
+    background-color: #282A35;
+}
+#footer ul{
+    overflow: auto;
+}
+#footer li{
+    color: white;
+    list-style: none;
+    margin: 36px 0px;
+}
+#a13{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 12px solid white;
+    border-radius: 8px;
+    padding: 0px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#a13:hover{
+    color: #0004ff;
+}
+#a14{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 12px solid white;
+    border-radius: 8px;
+    padding: 0px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#a14:hover{
+    color: #0004ff;
+}
+#a15{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 12px solid white;
+    border-radius: 8px;
+    padding: 0px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#a15:hover{
+    color: #0004ff;
+}
+#a16:hover{
+    color: #FFF4A3;
+}
+#a17:hover{
+    color: #FFF4A3;
+}
+#a18:hover{
+    color: #FFF4A3;
+}
+#div8{
+    color: white;
+    background-color: #282A35;
+}
+#div8a ul{
+    overflow: auto;
+}
+#div8a li{
+    margin: 0px 0px 0px 196px;
+    float: left;
+    padding: 0cm 0cm 0cm 2cm;
+}
+#a19{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 12px solid white;
+    border-radius: 12px;
+    padding: 0px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

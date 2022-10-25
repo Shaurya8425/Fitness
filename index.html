@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness & health</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        /* css reset */
+        body{
+            font-family: Ubuntu;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gym1.jpg');
+            /* background-repeat: no-repeat; */
+        }
+        #div-border{
+            height: 2.4cm;
+            background-color: gainsboro;
+            border: 2px solid black;
+            margin: 12px 16px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .div-left{
+            display: inline-block;
+            background-color: gray;
+            margin: 8px 10px;
+            position: absolute;
+            left: 24px;
+            top: 8px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .div-mid{
+            background-color: grey;
+            display: block;
+            width: 50%;
+            margin: 24px auto;
+            border-radius: 12px;
+        }
+        .div-right{
+            background-color: grey;
+            position: absolute;
+            right: 34px;
+            top: 24px;     
+            display: inline-block;
+            border-radius: 36px;
+        }
+        .div-right ul{
+            overflow: auto;
+            font-size: 24px;
+        }
+        .div-right li{
+            display: inline-block;
+        }
+        .div-right li a{
+            color: white;
+            text-decoration: none;
+            padding: 0px 24px 0px 0px;
+        }
+        .div-right li a:hover{
+            color: orange;
+            text-decoration: underline;
+        }
+        #div-lower-border{
+            height: 2.36cm;
+            background-color: gainsboro;
+            border: 2px solid black;
+            margin: -8px 16px;
+            display: block;
+            width: 85.24%;
+            float: right;
+            border-radius: 8px;
+        }
+        .div-l{
+            display: inline-block;
+            background-color: gray;
+            position: absolute;
+            border-radius: 12px;
+            font-weight: bold;
+            padding: 0px 20px 0px 0px;
+            margin: 12px 0px 0px 8px;
+        }
+        .div-l ul{
+            overflow: auto;
+            font-size: 20px;
+
+        }
+        .div-l li{
+            display: inline-block;
+
+        }
+        .div-l li a{
+            color: white;
+            text-decoration: none;
+        }
+        .div-l li a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+        .div-m{
+            background-color: grey;
+            display: inline-block;
+            width: 20%;
+            margin: 12px 0px 0px 352px;
+            padding: 0px 0px 0px 18px ;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+        .div-m ul{
+            overflow: auto;
+            font-size: 20px;
+
+        }
+        .div-m li{
+            display: inline-block;
+
+        }
+        .div-m li a{
+            color: white;
+            text-decoration: none;
+        }
+        .div-m li a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+        .div-r{
+            background-color: grey;
+            display: inline-block;
+            width: 20%;
+            margin: 12px 0px 0px 8px;
+            padding: 0px 0px 0px 18px ;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+        .div-r ul{
+            overflow: auto;
+            font-size: 20px;
+        }
+        .div-r li{
+            display: inline-block;
+        }
+        .div-r li a{
+            color: white;
+            text-decoration: none;
+        }
+        .div-r li a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .div-search{
+            float: right;
+            margin: 30px 24px 0px 0px;
+            border: 2px solid;
+            background-color: rgba(128, 128, 128, 0.548);
+            padding: 4px 10px 4px 12px;
+            border-radius: 10px;
+        }
+        .div-search input{
+            border-radius: 4px;
+        }
+        .navbar ul{
+            overflow: auto;
+            font-size: 26px;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 24px;
+        }
+        .navbar li a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+        .div-left img{
+            width: 136px;
+            height: 82px;
+            filter: invert(100%);
+        }
+        .div-offer{
+            border: 4px solid white;
+            border-radius: 8px;
+            display: block;
+            height: 1.68cm;
+            width: 92%;
+            margin: 2.6px 8px 0px 42px;
+            background-color: orange;
+        }
+        #div-offera{
+            border: 4px solid white;
+            display: inline-block;
+            width: 18%;
+            margin: 2.6px 0px 0px 42px;
+            padding: 4px 0px 6px 36px;
+            background-color: red;
+            border-radius: 12px;
+        }
+        #div-offera a{
+            border: 4px solid ;
+            display: inline-block;
+            margin: 0px 0px 0px 44px;
+            padding: 0px 36px 0px 36px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        #div-offera a:hover{
+            color: yellow;
+            text-decoration: underline;
+            background-color: gray;
+        }
+        #p-offer{
+            display: inline-block;
+            width: 50%;
+            margin: 12px 2.4cm;
+            font-size: 26px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+    <div id="div-border">
+        <!-- box for logo -->
+        <div class="div-left">
+            <img src="img/gym_logo.png" alt="logo"> <br> <h3 style="position: relative; bottom:12px;">Fitness <br> & <br> Health</h3> 
+        <!-- box for navigator -->
+        </div>
+        <div class="div-mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Fitness Center</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="div-right">
+            <ul>
+                <li><a href="">SignUp</a></li>
+                <li><a href="">LogIn</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="div-lower-border">
+        <div class="div-l">
+            <ul>
+                <li><a href="">Workouts</a></li> &nbsp;
+                <li><a href="">Exercises</a></li>&nbsp;
+                <li><a href="">Dietplans</a></li>
+            </ul>
+        </div>
+        <div class="div-m">
+            <ul>
+                <li><a href="">Articles</a></li>&nbsp;
+                <li><a href="">Recipes</a></li>
+            </ul>
+        </div>
+        <div class="div-r">
+            <ul>
+                <li><a href="">Store</a></li>&nbsp;
+                <li><a href="">Tools</a></li>
+            </ul>
+        </div>
+        <div class="div-search">
+            <input type="text" name="search" placeholder="Search" id="search">
+        </div>
+    </div>
+    </header>
+    <div id="div1">
+        <center><h1>Why you should join a gym?</h1></center>
+        <p id="p1">
+            The benefits of a gym membership range from the obvious such as improved fitness to other reasons you might not have considered such as socializing. Joining a gym is a great investment in yourself! Let’s take a look at seven great reasons you should join a gym and the fitness benefits you’ll get from it.
+        </p>
+        <img src="img/gym2.png" alt="Gym" id="img2">
+    </div>
+    <!-- offer -->
+    <div class="div-offer">
+        <p id="p-offer">
+            <strong>Don't miss our anniversary offer. Join our gym now</strong>
+            <div id="div-offera">
+                <a href=""><Strong>Join</Strong></a>
+            </div>
+        </p> 
+    </div>
+    <div id="div2">
+        <center><h1>Stress Releif</h1></center>
+        <p id="p2">
+            Getting regular exercise is a great way to relieve stress and improve your mental health. According to the Mayo Clinic, exercise releases endorphins – a neurotransmitter that makes you feel good – and can improve your mood. It can also help reverse the negative effects of stress and just help you forget the day’s worries. <br>
+            Stress can be a major factor in health problems such as high blood pressure and heightened anxiety. Stress relief is definitely one of the biggest benefits of a gym membership. Want to learn more? Check out the Mayo Clinic’s thoughts on it here.
+        </p>
+        <div id="div2a">
+            <center><h2>Table of Contents.</h2></center>
+            <ol>
+                <li>Stress relief</li>
+                <li>Socialization</li>
+                <li>Increased fitness</li>
+                <li>Increased balance and flexibility</li>
+                <li>Improved metabolism and weight management</li>
+                <li>Increased energy</li>
+                <li>Improved sleep</li>
+                <li>Bonus: Potential financial benefits</li>
+            </ol>
+        </div>
+    </div>
+    <div id="div3" class="div">
+        <center><h1>Socialization</h1></center>
+        <p class="p">
+            This one may not be an obvious benefit during our current pandemic, but socializing at the gym can be a benefit. Of course, your workout is your priority, but coming to the gym can lead to improved personal relationships and making new friends. <br>
+            Many of our members choose family or couple memberships, meaning they are able to bond with each other, push each other, and generally enjoy each other’s company in a way that’s completely different than their normal interactions. However, having a family membership isn’t the only way to have some social time. <br>
+            You will make new friends who have a common interest with you. You may even become workout partners over time. If your gym has fitness classes, you’ll meet new people in those, too. Making friends and improving your social life is definitely one of the best benefits of having a gym membership.  
+        </p>
+    </div>
+    <div id="div4" class="div">
+        <center><h1>Increased fitness</h1></center>
+        <p class="p">
+            This one goes without saying, but a gym membership can definitely lead to an increase in your fitness level. Whether you’re a senior trying to stay active or an athlete looking to increase your performance level, being in the gym on a regular basis is going to help. Having a membership at your local fitness center (of course we recommend Advance Fitness!) will almost certainly lead you to set up a regular exercise schedule and, hopefully, stick to it. <br>
+            Aside from just being in the gym more often, a gym membership can help you increase your fitness level in other ways, too. You’ll observe others working out, see what they do, and adopt some of those things into your own workout routine. You’ll also be around trainers who can help make sure you’re performing exercises in a way that will maximize your gains and reduce the chances for serious injury. If you want to take your fitness to the next level, join a gym.
+        </p>
+    </div>
+    <div id="div5" class="div">
+        <center><h1>Increased balance and flexibility</h1></center>
+        <p class="p">
+            This one goes hand-in-hand with increasing your fitness! One of the benefits of a gym membership is increasing your balance and flexibility. Your workout routine will help you become more flexible over time and your increased strength, especially in your core, legs, and glutes, will improve your balance. Improving your balance and flexibility is important for everyone, but this is, perhaps, the single biggest benefit for seniors. <br>
+            As our bodies age, we naturally lose flexibility and strength. Using resistance training can help combat these natural processes. The stronger and more flexible you are, the better your mobility is going to be. Better mobility leads to a higher quality of life, so the benefits of a gym membership are obvious.
+        </p>
+    </div>
+    <div id="div6" class="div">
+        <center><h1>Improved metabolism and weight management</h1></center>
+        <p class="p">
+            Increasing muscle mass means you burn more calories. Research shows that muscle burns about 3 times more calories than fat, which means that the more muscle you gain, the more your metabolism speeds up. <br>
+            The calorie-burning effect, however, doesn’t just happen while you’re working out. The basal metabolic rate (which means how many calories you burn while at rest) shows a continued increase for several hours after you complete a workout. <br>
+            A hard workout also means that you are more likely to dip into your stored fat for energy, which can help you shed unwanted weight. A balance of weight training and cardio exercise will definitely help improve your metabolism and control your weight. Check out what Self Magazine had to say on the subject.
+        </p>
+    </div>
+    <div id="div7" class="div">
+        <center><h1>Increased energy</h1></center>
+        <p class="p">
+            It may seem counterintuitive, but regular exercise can boost your energy levels. Exercise releases endorphins, which are hormones that make you feel good. Exercise also helps increase your endurance – even for activities that happen outside the gym. The better your endurance the more energy reserves you’ll have at the end of the day. <br>
+            Extra endorphins and an increase in energy levels will also pay off by helping your mental health, too. The exercise “high” you get will carry over into the rest of your day, making your mood better over time. 
+        </p>
+    </div>
+    <div id="div8" class="div">
+        <center><h1>Improved sleep</h1></center>
+        <p class="p">
+            Studies show that regular exercise can help you fall asleep faster, fight insomnia, and help you get deep, restorative sleep. Researchers aren’t entirely sure why, but the evidence points to increased blood flow and oxygen going to all parts of the body. If you’re someone – like a lot of us – who need better sleep, exercise can be a way to help achieve it. Make sure you’re getting regular physical activity and better sleep will surely follow.
+        </p>
+    </div>
+    <div id="div9" class="div">
+        <center><h1>Bonus: Potential financial benefits</h1></center>
+        <p class="p">
+            Wait … a gym membership costs money! How could I see potential financial benefits from a gym membership? <br>
+            The answer is simple – a gym membership can lead your health to improve over time. Better health means lower blood pressure, better mental health, and an improved immune system. Exercise has also been shown to help reduce blood sugar levels in diabetics or those who are on the verge of becoming diabetic. <br>
+            Ask yourself which is less expensive – a monthly gym membership or medical bills that result from poor health? The answer is clear. A gym membership could help your financial situation by helping you avoid potential health pitfalls that could lead to catastrophic medical debt. <br>
+            The benefits of a gym membership definitely outweigh the negatives. If you’re looking for a new gym, we hope you’ll consider Advance Fitness. We’re one of Springfield, Missouri’s top locally-owned fitness companies and we think you’ll be happy as one of our family!.
+        </p>
+    </div>
+    <footer id="footer">
+        <div id="div10">
+            <h2>About</h2>
+            <p>We're a 24-hour-a-day gym located in Kanpur, UP. We offer no-contract memberships with 0 signup fee.</p>
+        </div>
+        <div id="div11">
+            <h2>Contact Us</h2>
+            <strong>Address: </strong><a href="">x/y z nagar, Kanpur, UP</a> <br>
+            <strong>Telephone: </strong><a href="">123-456-7890</a> <br>
+            <strong>Email: </strong><a href="">nicegym321@gmail.com</a>
+        </div>
+    </footer>
+    <div id="div12">
+        <p id="p3">
+            &#169; Copyright fitness & health, 2022. All Right Reserved. Powered by <strong> <a href=""> auxilium pvt limited</a></strong>
+        </p>
+    </div>
+</body>
+</html>
